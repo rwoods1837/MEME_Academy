@@ -1,11 +1,12 @@
 /*** sectioning elements ***/
 
 body {
-  background-color: #bbb3a6;
+  background-color: #d8dde2;
+  color: #555;
 }
 
 header {
-
+  background-color: #c9c9c9;
 }
 
 main {
@@ -13,11 +14,11 @@ main {
 }
 
 footer {
-
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 nav {
-
+  background-color: #030;
 }
 
 section {
@@ -33,10 +34,20 @@ aside {
 
 h1 {
   font-size: 35px;
+  font-family: impact;
+  color: #555;
+}
+
+h1.center {
+  text-align: center;
+  font-family: impact;
+  color: #444;
 }
 
 h2 {
-
+ font-size: 30px;
+ font-family: impact;
+ color: #555;
 }
 
 h3 {
@@ -102,17 +113,38 @@ img  {
 /*** link styles ***/
 
 a:link {
-
+  color: #070;
 }
 
 a:visited {
-
+  color: #070;
 }
 
 a:hover {
-
+  color: #070;
 }
 
 a:active {
+  color: #070;
+}
 
+
+/*==================================================================================================================================
+    To override odin
+=================================================================================================================================*/
+
+/*NAVBER*/
+
+.navbar {
+  background-color: #444;
+}
+
+.navbar-menu a:link, a:visited {
+  color: #eee;
+  text-decoration: none;
+}
+
+.navbar-menu a:hover, a:active {
+  color: #c9c9c9;
+  text-decoration: none;
 }
