@@ -15,6 +15,8 @@ main {
 
 footer {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: #444;
+  color: #c9c9c9;
 }
 
 nav {
@@ -45,7 +47,7 @@ h1.center {
 }
 
 h2 {
- font-size: 30px;
+ font-size: 32px;
  font-family: impact;
  color: #555;
 }
@@ -95,7 +97,7 @@ tr {
 }
 
 th {
-
+  text-align: left;
 }
 
 td {
@@ -147,4 +149,77 @@ a:active {
 .navbar-menu a:hover, a:active {
   color: #c9c9c9;
   text-decoration: none;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #444;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:#777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #444;
+    color: white !important
 }
