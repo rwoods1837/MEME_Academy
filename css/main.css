@@ -134,7 +134,7 @@ a:active {
 
 
 /*==============================================================================
- still accurate -----> I AM HORRIFICALLY D E P R E S S E D <----- still accurate
+                              CHANGES TO ODIN
 ==============================================================================*/
 
 
@@ -231,4 +231,13 @@ body {font-family: Verdana, sans-serif;}
 }
 
 
-/**/
+/*Table*/
+thead th{
+  background-color: #d8dde2;
+  font-size: 22px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.shade-even-rows {
+  background-color: #c0c7ce;
+}
