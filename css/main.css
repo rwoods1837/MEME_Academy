@@ -2,7 +2,7 @@
 
 body {
   background-color: #d8dde2;
-  color: #555;
+
 }
 
 header {
@@ -14,13 +14,13 @@ main {
 }
 
 footer {
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  background-color: #444;
-  color: #c9c9c9;
+ font-family: "Comic Sans MS", "Comic Sans", cursive;
+ background-color: #444;
+ color: #c9c9c9;
 }
 
 nav {
-  background-color: #030;
+
 }
 
 section {
@@ -33,23 +33,25 @@ aside {
 
 
 /**** content styles ***/
+h1, h2, h3, h4, h5, h6 {
+  color: #555;
+}
 
 h1 {
   font-size: 35px;
-  font-family: impact;
-  color: #555;
+  font-family: fantasy;
 }
 
 h1.center {
   text-align: center;
-  font-family: impact;
   color: #444;
 }
 
 h2 {
  font-size: 32px;
- font-family: impact;
- color: #555;
+ font-family: fantasy;
+   color: #444;
+
 }
 
 h3 {
@@ -85,7 +87,7 @@ ul {
 }
 
 li {
-
+ font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 table {
@@ -97,7 +99,7 @@ tr {
 }
 
 th {
-  text-align: left;
+text-align: left;
 }
 
 td {
@@ -115,27 +117,28 @@ img  {
 /*** link styles ***/
 
 a:link {
-  color: #070;
+
 }
 
 a:visited {
-  color: #070;
+
 }
 
 a:hover {
-  color: #070;
+
 }
 
 a:active {
-  color: #070;
+
 }
 
 
-/*==================================================================================================================================
-    To override odin
-=================================================================================================================================*/
+/*==============================================================================
+ still accurate -----> I AM HORRIFICALLY D E P R E S S E D <----- still accurate
+==============================================================================*/
 
-/*NAVBER*/
+
+/*NAVBAR*/
 
 .navbar {
   background-color: #444;
@@ -143,13 +146,16 @@ a:active {
 
 .navbar-menu a:link, a:visited {
   color: #eee;
-  text-decoration: none;
 }
 
 .navbar-menu a:hover, a:active {
   color: #c9c9c9;
   text-decoration: none;
 }
+
+
+/*CALENDARS CAN BE DEPRESSED TOO YKNOW*/
+
 
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
@@ -223,3 +229,6 @@ body {font-family: Verdana, sans-serif;}
     background: #444;
     color: white !important
 }
+
+
+/**/
