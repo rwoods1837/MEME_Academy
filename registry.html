@@ -15,7 +15,7 @@
 
 <header>
 
-  <h1 class="center">Mindless Entertainment Made Endemic (MEME) Academy</h1>
+  <h1 class="center">Mindless Entertainment Made Endemic (MEME) Academy&trade;</h1>
 
   <nav class="navbar navbar-spread">
       <div class="navbar-menu">
@@ -38,20 +38,100 @@
     <div class="row">
       <div class="col-sm-12">
         <h2>Sign Up For MEME Academy<hr></h2>
-          <form>
-            Name:
-            <input type="text" name="Name"><br><br>
-            Email:
-            <input type="text" name="Email"><br><br>
-            <input type="submit" value="Submit">
 
-          </form>
+        <form class="form-basic form-stack form-wide">
+          <fieldset>
+            <legend>Registration</legend>
+            <div class="row">
+              <div class="col-md-6">
+                <label for="first_name">First name:</label>
+                <input id="first_name" type="text" name="first_name">
+              </div>
+              <div class="col-md-6">
+                <label for="last_name">Last name:</label>
+                <input id="last_name" type="text" name="last_name">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12">
+                <label for="address">Address:</label>
+                <input id="address" type="text" name="address">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <label for="city">City:</label>
+                <input id="city" type="text" name="city">
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <label for="state4">State:</label>
+                <select id="state4">
+                  <option value="">Select one...</option>
+                  <option value="">Alabama</option>
+                  <option value="">Alaska</option>
+                  <option value="">Arizona</option>
+                </select>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <label for="zip4">Zip Code:</label>
+                <input id="zip4" type="text" name="zip">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Contact Info</legend>
+            <div class="row">
+              <div class="col-md-6">
+                <label for="email4">Email:</label>
+                <input id="email4" type="text" name="email">
+              </div>
+              <div class="col-md-6">
+                <label for="phone4">Phone:</label>
+                <input id="phone4" type="text" name="phone">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Payment Details</legend>
+            <div class="row">
+              <div class="col-md-6">
+                <label for="card_num4">Credit Card Number:</label>
+                <input id="card_num4" type="text" name="card_num">
+              </div>
+              <div class="col-sm-4 col-md-2">
+                <label for="state4">Exp Month:</label>
+                <select id="state4">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                </select>
+              </div>
+              <div class="col-sm-4 col-md-2">
+                <label for="state4">Exp Year:</label>
+                <select id="state4">
+                  <option value="">2016</option>
+                  <option value="">2017</option>
+                  <option value="">2018</option>
+                </select>
+              </div>
+              <div class="col-sm-4 col-md-2">
+                <label for="cvn4">CVN:</label>
+                <input id="cvn4" type="text" name="cvn">
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="row">
+            <div class="col-xs-12 push-right">
+              <button type="submit">Place Order</button>
+            </div>
+          </div>
+        </form>
         </div>
-
-        <div class="col-sm-12">
-
-          <p>Submitting your email and name will send you an email to register for the famed MEME Academy.</p>
-      </div>
 
 </main>
 
