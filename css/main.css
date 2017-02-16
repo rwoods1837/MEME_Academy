@@ -112,23 +112,30 @@ img  {
 
 }
 
+img.rounded {
+  margin: 20px;
+}
 
 /*** link styles ***/
 
 a:link {
   color: #070;
+  text-decoration: none;
 }
 
 a:visited {
   color: #070;
+  text-decoration: none;
 }
 
 a:hover {
   color: #070;
+  text-decoration: none;
 }
 
 a:active {
   color: #070;
+  text-decoration: none;
 }
 
 
@@ -136,7 +143,7 @@ a:active {
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ==============================================================================*/
 
-/*NAVBAR*/
+                                                                      /*NAVBAR*/
 
 .navbar {
   background-color: #444;
@@ -154,6 +161,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
+
+
+                                                                  /* CALENDAR */
 
 /* Month header */
 .month {
@@ -225,7 +235,7 @@ body {font-family: Verdana, sans-serif;}
     color: white !important
 }
 
-/*Table*/
+                                                                     /* TABLE */
 thead th{
   background-color: #d8dde2;
   font-size: 22px;
