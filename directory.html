@@ -1,23 +1,21 @@
-
 <!DOCTYPE html>
 
 <html lang="en">
 <head>
-  <title>MEME Academy - Directory</title>
-  <link rel="stylesheet" href="css/lightbox.css">
-  <link rel="stylesheet" href="css/odin-0.10.2.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <meta charset="utf-8">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-</head>
+<title>MEME Academy - Directory</title>
+<link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="css/odin-0.10.2.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/main.css">
+<meta charset="utf-8">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"></head>
 
-<body class="show-gridlines">
+<body>
 
 <header>
 
-  <h1 class="center">Mindless Entertainment Made Endemic (MEME) Academy&trade;</h1>
+  <h1 class="center">Mindless Entertainment Made Endemic (MEME) Academy &trade;</h1>
 
   <nav class="navbar navbar-spread">
       <div class="navbar-menu">
@@ -57,8 +55,8 @@
          <tr>
            <td aria-label="Name">Kermit The Frog</td>
            <td aria-label="Department">Vice Principal</td>
-           <td aria-label="Email">noneofmybusiness@meme.com</td>
-           <td aria-label="Site"><a href="#">noneofmybusiness.com</a></td>
+           <td aria-label="Email">noneofmybuisness@meme.com</td>
+           <td aria-label="Site">noneofmybuisness.com</td>
          </tr>
 
          <tr>
@@ -154,5 +152,21 @@
 <script src="js\jquery-2.1.4.min.js"></script>
 <script src="js\odin-0.7.1.js"></script>
 <script src="js\owl.carousel.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  $('.owl-carousel').owlCarousel({
+    items : 1,
+    autoplay : true,
+    autoplayTimeout : 3000,
+    autoplayHoverPause : true,
+    dots : true,
+    loop : true,
+    margin : 10,
+    nav : false
+  })
+})
+</script>
+
 </body>
 </html>

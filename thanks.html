@@ -2,21 +2,20 @@
 
 <html lang="en">
 <head>
-<title>MEME Academy - Home</title>
+<title>MEME Academy - Registry</title>
 <link rel="stylesheet" href="css/lightbox.css">
 <link rel="stylesheet" href="css/odin-0.10.2.css">
 <link rel="stylesheet" href="css/owl.carousel.min.css">
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
 <link rel="stylesheet" href="css/main.css">
 <meta charset="utf-8">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-</head>
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"></head>
 
-<body class="show-gridlines">
+<body>
 
 <header>
 
-  <h1 class="center">Mindless Entertainment Made Endemic (MEME) Academy&trade;</h1>
+  <h1 class="center">Mindless Entertainment Made Endemic (MEME) Academy &trade;</h1>
 
   <nav class="navbar navbar-spread">
       <div class="navbar-menu">
@@ -38,7 +37,9 @@
 
     <div class="col-sm-12">
       <h2>Thanks&trade;</h2>
-      <br>
+    </div>
+
+    <div class="col-sm-12">
       <img src="img/fieri.png">
     </div>
 
@@ -46,7 +47,7 @@
 </main>
 
 <footer>
-    <span class="byline">&copy; Ryan Woods & Sarah Heal 2K17&trade;<span>
+    <span class="byline">&copy; Ryan Woods & Sarah Heal 2K17 &trade;<span>
 </footer>
 
 <!-- javascript -->
@@ -54,5 +55,21 @@
 <script src="js\jquery-2.1.4.min.js"></script>
 <script src="js\odin-0.7.1.js"></script>
 <script src="js\owl.carousel.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  $('.owl-carousel').owlCarousel({
+    items : 1,
+    autoplay : true,
+    autoplayTimeout : 3000,
+    autoplayHoverPause : true,
+    dots : true,
+    loop : true,
+    margin : 10,
+    nav : false
+  })
+})
+</script>
+
 </body>
 </html>

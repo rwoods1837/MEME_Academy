@@ -11,7 +11,7 @@
 <meta charset="utf-8">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"></head>
 
-<body class="show-gridlines">
+<body>
 
 <header>
 
@@ -64,5 +64,21 @@
 <script src="js\jquery-2.1.4.min.js"></script>
 <script src="js\odin-0.7.1.js"></script>
 <script src="js\owl.carousel.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  $('.owl-carousel').owlCarousel({
+    items : 1,
+    autoplay : true,
+    autoplayTimeout : 3000,
+    autoplayHoverPause : true,
+    dots : true,
+    loop : true,
+    margin : 10,
+    nav : false
+  })
+})
+</script>
+
 </body>
 </html>
