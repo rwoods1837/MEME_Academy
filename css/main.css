@@ -64,7 +64,10 @@ h4 {
 }
 
 h5 {
-
+ font-size: 28px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: ;
+  font-weight: bold;
 }
 
 h6 {
@@ -121,19 +124,19 @@ img.rounded {
 /*** link styles ***/
 
 a:link {
- color: #;
+ color: #005699;
 }
 
 a:visited {
- color: #;
+ color: #005699;
 }
 
 a:hover {
-
+ color: #;
 }
 
 a:active {
-
+ color: #;
 }
 
 
@@ -176,8 +179,9 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .month ul li {
-    color: white;
+    color: #eee;
     font-size: 20px;
+    margin: 15px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -186,12 +190,14 @@ body {font-family: Verdana, sans-serif;}
 .month .prev {
     float: left;
     padding-top: 10px;
+    color: #7db2db;
 }
 
 /* Next button */
 .month .next {
     float: right;
     padding-top: 10px;
+    color: #7db2db;
 }
 
 /* Weekdays (Mon-Sun) */
@@ -204,7 +210,7 @@ body {font-family: Verdana, sans-serif;}
 .weekdays li {
     display: inline-block;
     width: 13.6%;
-    color: #666;
+    color: #005699;
     text-align: center;
 }
 
@@ -228,7 +234,7 @@ body {font-family: Verdana, sans-serif;}
 /* Highlight the "current" day */
 .days li .active {
     padding: 5px;
-    background: #444;
+    background: #7db2db;
     color: white !important
 }
 
