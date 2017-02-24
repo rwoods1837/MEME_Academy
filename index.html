@@ -12,10 +12,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 </head>
 
-<body class="show-gridlines">
+<body>
 
 <header>
-
   <h1 class="center">Mindless Entertainment Made Endemic (MEME) Academy&trade;</h1>
 
   <nav class="navbar navbar-spread">
@@ -109,7 +108,8 @@
     $(document).ready(function() {
       $('.owl-carousel').owlCarousel({
         autoplay : true,
-        autoplayTimeout : 3500,
+        autoplayTimeout : 3000,
+        autoplayHoverPause: true,
         dots : true,
         items : 1,
         loop : true,
