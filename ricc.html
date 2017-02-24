@@ -2,15 +2,14 @@
 
 <html lang="en">
 <head>
-  <title>MEME Academy - Registry</title>
-  <link rel="stylesheet" href="css/lightbox.css">
-  <link rel="stylesheet" href="css/odin-0.10.2.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <meta charset="utf-8">
-  <link rel`="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-</head>
+<title>MEME Academy - Registry</title>
+<link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="css/odin-0.10.2.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/main.css">
+<meta charset="utf-8">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"></head>
 
 <body>
 
@@ -36,8 +35,12 @@
 <main>
   <div class="container-lg">
 
-    <img src="img/rick.jpg"><div class="col-sm-12">
-      <h2>Rick Harrison &trade;</h2>
+   <div class="col-sm-12">
+
+    <img class="circle float" src="img/rick.jpg"><br><br><br>
+
+      <h2>Rick Harrison &trade;</h2><br><br>
+
     </div>
 
     <div class="col-sm-12">
@@ -46,11 +49,11 @@
 
     <ul>
       <h3>Stuff We Sell</h3>
-        <li>T-Shirts</li>
-        <li>Food</li>
-        <li>School Supplies</li>
-        <li>Drinks</li>
-        <li>Good Grades</li>
+        <li>t-shirts</li>
+        <li>FOOD</li>
+        <li>school supplies</li>
+        <li>drinks</li>
+        <li>good grades</li>
 </main>
 
 <footer>
@@ -62,5 +65,21 @@
 <script src="js\jquery-2.1.4.min.js"></script>
 <script src="js\odin-0.7.1.js"></script>
 <script src="js\owl.carousel.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  $('.owl-carousel').owlCarousel({
+    items : 1,
+    autoplay : true,
+    autoplayTimeout : 3000,
+    autoplayHoverPause : true,
+    dots : true,
+    loop : true,
+    margin : 10,
+    nav : false
+  })
+})
+</script>
+
 </body>
 </html>
