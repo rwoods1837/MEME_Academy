@@ -54,7 +54,7 @@ h2 {
 h3 {
   font-size: 30px;
   font-family: impact;
-  color: #555;
+  color: #285d87;
 }
 
 h4 {
@@ -66,7 +66,7 @@ h4 {
 h5 {
  font-size: 28px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  color: ;
+  color: #285d87;
   font-weight: bold;
 }
 
@@ -129,12 +129,12 @@ img.float {
 /*** link styles ***/
 
 a:link {
- color: #005699;
+ color: #285d87;
  text-decoration: none;
 }
 
 a:visited {
- color: #005699;
+ color: #285d87;
  text-decoration: none;
 }
 
@@ -219,7 +219,7 @@ body {font-family: Verdana, sans-serif;}
 .weekdays li {
     display: inline-block;
     width: 13.6%;
-    color: #005699;
+    color: #285d87;
     text-align: center;
 }
 
