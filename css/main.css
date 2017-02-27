@@ -130,18 +130,22 @@ img.float {
 
 a:link {
  color: #005699;
+ text-decoration: none;
 }
 
 a:visited {
  color: #005699;
+ text-decoration: none;
 }
 
 a:hover {
- color: #;
+ color: #7db2db;
+ text-decoration: none;
 }
 
 a:active {
- color: #;
+ color: #7db2db;
+ text-decoration: none;
 }
 
 
@@ -160,7 +164,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 }
 
 .navbar-menu a:hover, .navbar-menu a:active {
-  color: #c9c9c9;
+  color: #7db2db;
   text-decoration: none;
     }
 
@@ -252,4 +256,11 @@ thead th{
 
 .shade-even-rows {
   background-color: #c0c7ce;
+}
+
+button {
+  background-color: #7db2db;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 5px;
 }
