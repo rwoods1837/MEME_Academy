@@ -1,11 +1,11 @@
 
 body {
-  background-color: #d8dde2;
-  color: #555;
+  background-color: #dae2ed;
+  color: #535353;
 }
 
 header {
-  background-color: #c9c9c9;
+  background-color: #ced4dd;
 }
 
 main {
@@ -14,7 +14,7 @@ main {
 
 footer {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  background-color: #444;
+  background-color: #535353;
   color: #c9c9c9;
 }
 
@@ -154,7 +154,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
                                                                       /*NAVBAR*/
 .navbar {
-  background-color: #444;
+  background-color: #535353;
 }
 
 .navbar-menu a:link, .navbar-menu a:visited {
@@ -170,19 +170,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
+                                                                /* MEME-TITLE */
 a.name {
   color: #005570;
   text-decoration: none;
 }
-
-
                                                                   /* CALENDAR */
 
 /* Month header */
 .month {
     padding: 70px 25px;
     width: 100%;
-    background: #444;
+    background: #535353;
 }
 
 /* Month list */
