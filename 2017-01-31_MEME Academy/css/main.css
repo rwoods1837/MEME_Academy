@@ -1,0 +1,269 @@
+
+body {
+  background-color: #dae2ed;
+  color: #535353;
+}
+
+header {
+  background-color: #ced4dd;
+}
+
+main {
+
+}
+
+footer {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: #535353;
+  color: #c9c9c9;
+}
+
+nav {
+  background-color: #030;
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+  font-size: 35px;
+  font-family: impact;
+}
+
+h1.center {
+  text-align: center;
+  font-family: impact;
+  color: #005570;
+}
+
+h2 {
+ font-size: 32px;
+ font-family: impact;
+ color: #005570;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: impact;
+  color: #3878af;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: impact;
+  color: #3878af;
+}
+
+h5 {
+ font-size: 28px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #3878af;
+  font-weight: bold;
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+  list-style-type: circle;
+}
+
+li {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+  text-align: left;
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img  {
+
+}
+
+img.rounded {
+
+}
+
+img.float {
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+/*** link styles ***/
+
+a:link {
+ color: #3878af;
+ text-decoration: none;
+}
+
+a:visited {
+ color: #3878af;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #8fbfe8;
+ text-decoration: none;
+}
+
+a:active {
+ color: #8fbfe8;
+ text-decoration: none;
+}
+
+
+/*==============================================================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+==============================================================================*/
+
+                                                                      /*NAVBAR*/
+.navbar {
+  background-color: #535353;
+}
+
+.navbar-menu a:link, .navbar-menu a:visited {
+  color: #eee;
+  text-decoration: none;
+}
+
+.navbar-menu a:hover, .navbar-menu a:active {
+  color: #8fbfe8;
+  text-decoration: none;
+    }
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+                                                                /* MEME-TITLE */
+a.name {
+  color: #005570;
+  text-decoration: none;
+}
+                                                                  /* CALENDAR */
+
+/* Month header */
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #535353;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: #eee;
+    font-size: 20px;
+    margin: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+    color: #8fbfe8;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+    color: #8fbfe8;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #005570;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:#777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #8fbfe8;
+    color: white !important
+}
+
+                                                                     /* TABLE */
+thead th{
+  background-color: #d8dde2;
+  font-size: 22px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.shade-even-rows {
+  background-color: #c0c7ce;
+}
+
+button {
+  background-color: #8fbfe8;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 5px;
+}
