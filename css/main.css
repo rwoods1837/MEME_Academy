@@ -30,7 +30,9 @@ aside {
 
 }
 
-
+legend {
+  font-size: 22px;
+}
 /**** content styles ***/
 
 h1 {
