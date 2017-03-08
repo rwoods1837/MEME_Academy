@@ -1,10 +1,11 @@
+
 body {
-  background-color: #d8dde2;
-  color: #555;
+  background-color: #dae2ed;
+  color: #535353;
 }
 
 header {
-  background-color: #c9c9c9;
+  background-color: #ced4dd;
 }
 
 main {
@@ -13,7 +14,7 @@ main {
 
 footer {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  background-color: #444;
+  background-color: #535353;
   color: #c9c9c9;
 }
 
@@ -29,7 +30,9 @@ aside {
 
 }
 
-
+legend {
+  font-size: 22px;
+}
 /**** content styles ***/
 
 h1 {
@@ -69,7 +72,9 @@ h5 {
 }
 
 h6 {
-
+  font-size: 22px;
+   font-family: "Comic Sans MS", "Comic Sans", cursive;
+   color: #dedede;
 }
 
 p {
@@ -115,10 +120,6 @@ img  {
 
 }
 
-img.icon {
-  margin: 5px;
-}
-
 img.rounded {
 
 }
@@ -128,6 +129,11 @@ img.float {
   padding: 10px;
   margin: 10px;
 }
+
+img.icon {
+  margin: 5px;
+}
+
 /*** link styles ***/
 
 a:link {
@@ -150,14 +156,13 @@ a:active {
  text-decoration: none;
 }
 
-
 /*==============================================================================
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ==============================================================================*/
 
-                                                                      /*NAVBAR*/
+                                                                    /* NAVBAR */
 .navbar {
-  background-color: #444;
+  background-color: #535353;
 }
 
 .navbar-menu a:link, .navbar-menu a:visited {
@@ -173,19 +178,23 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
+                                                             /* Special LINKS */
 a.name {
   color: #005570;
   text-decoration: none;
 }
 
-
+a.footer {
+  color: #dedede;
+  font-size: 15px;
+}
                                                                   /* CALENDAR */
 
 /* Month header */
 .month {
     padding: 70px 25px;
     width: 100%;
-    background: #444;
+    background: #535353;
 }
 
 /* Month list */
