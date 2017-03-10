@@ -178,6 +178,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
+
+
                                                              /* Special LINKS */
 a.name {
   color: #005570;
@@ -188,6 +190,12 @@ a.footer {
   color: #dedede;
   font-size: 15px;
 }
+
+button {
+  color: #eee;
+}
+
+        
                                                                   /* CALENDAR */
 
 /* Month header */
