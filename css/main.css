@@ -195,7 +195,7 @@ button {
   color: #eee;
 }
 
-        
+
                                                                   /* CALENDAR */
 
 /* Month header */
@@ -282,9 +282,85 @@ thead th{
   background-color: #c0c7ce;
 }
 
+.button {
+  border-radius: 4px;
+  background-color: #8fbfe8;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0 8px #999;
+}
+
+.button:active {
+  background-color: #8fbfe8;
+  box-shadow: 0 6px #777;
+  transform: translateY(4px);
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 button {
   background-color: #8fbfe8;
   font-size: 18px;
   border-radius: 8px;
   padding: 5px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 60px; /* Place the button at the bottom of the page */
+    right: 60px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #8fbfe8; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+                                                               /*MEDIA QUERIES*/
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+
+  td {
+    font-size: 15px;
+  }
 }
